@@ -1,0 +1,96 @@
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\appsettings.Development.json
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\appsettings.json
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Omega.exe
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Omega.deps.json
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Omega.runtimeconfig.json
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Omega.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\ref\Omega.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Omega.pdb
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.OpenApi.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.csproj.AssemblyReference.cache
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.GeneratedMSBuildEditorConfig.editorconfig
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.AssemblyInfoInputs.cache
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.AssemblyInfo.cs
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.csproj.CoreCompileInputs.cache
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cs
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cache
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\staticwebassets.build.json
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\staticwebassets.development.json
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\scopedcss\bundle\Omega.styles.css
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.csproj.CopyComplete
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.dll
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\ref\Omega.dll
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.pdb
+E:\ПрактикаОмега\Omega\obj\Debug\net6.0\Omega.genruntimeconfig.cache
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Npgsql.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\appsettings.json
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Omega.exe
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Omega.deps.json
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Omega.runtimeconfig.json
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Omega.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\ref\Omega.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Omega.pdb
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Npgsql.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\я\Desktop\Omega\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.csproj.AssemblyReference.cache
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.AssemblyInfoInputs.cache
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.AssemblyInfo.cs
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.csproj.CoreCompileInputs.cache
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\scopedcss\bundle\Omega.styles.css
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.csproj.CopyComplete
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.dll
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\ref\Omega.dll
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.pdb
+C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.genruntimeconfig.cache
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\appsettings.json
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.exe
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.deps.json
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.runtimeconfig.json
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\ref\Omega.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.pdb
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Npgsql.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.AssemblyReference.cache
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.AssemblyInfoInputs.cache
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.AssemblyInfo.cs
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.CoreCompileInputs.cache
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\scopedcss\bundle\Omega.styles.css
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.CopyComplete
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.dll
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\ref\Omega.dll
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.pdb
+C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.genruntimeconfig.cache
