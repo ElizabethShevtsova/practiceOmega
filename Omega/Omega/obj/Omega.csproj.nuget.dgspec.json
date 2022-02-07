@@ -1,29 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\я\\Desktop\\Omega (3)\\Omega\\Omega.csproj": {}
+    "E:\\ПрактикаОмега\\Omega\\Omega.csproj": {}
   },
   "projects": {
-    "C:\\Users\\я\\Desktop\\Omega (3)\\Omega\\Omega.csproj": {
+    "E:\\ПрактикаОмега\\Omega\\Omega.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\я\\Desktop\\Omega (3)\\Omega\\Omega.csproj",
+        "projectUniqueName": "E:\\ПрактикаОмега\\Omega\\Omega.csproj",
         "projectName": "Omega",
-        "projectPath": "C:\\Users\\я\\Desktop\\Omega (3)\\Omega\\Omega.csproj",
-        "packagesPath": "C:\\Users\\я\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\я\\Desktop\\Omega (3)\\Omega\\obj\\",
+        "projectPath": "E:\\ПрактикаОмега\\Omega\\Omega.csproj",
+        "packagesPath": "C:\\Users\\el432\\.nuget\\packages\\",
+        "outputPath": "E:\\ПрактикаОмега\\Omega\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\я\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\el432\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
@@ -40,6 +36,22 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
             "Npgsql": {
               "target": "Package",
               "version": "[6.0.3, )"

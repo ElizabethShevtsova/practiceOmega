@@ -1,6 +1,6 @@
-﻿namespace Omega.Models;
+﻿namespace Omega.ViewModelsModels;
 
-public class CreateUser
+public class UserViewModel
 {
     public int userId { get; set;}
     public string login { get; set;}

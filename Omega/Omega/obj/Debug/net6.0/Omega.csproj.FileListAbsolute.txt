@@ -62,35 +62,9 @@ C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.dll
 C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\ref\Omega.dll
 C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.pdb
 C:\Users\я\Desktop\Omega\Omega\obj\Debug\net6.0\Omega.genruntimeconfig.cache
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\appsettings.json
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.exe
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.deps.json
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.runtimeconfig.json
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\ref\Omega.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Omega.pdb
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Npgsql.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\я\Desktop\Omega (3)\Omega\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.AssemblyReference.cache
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.AssemblyInfoInputs.cache
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.AssemblyInfo.cs
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.CoreCompileInputs.cache
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\scopedcss\bundle\Omega.styles.css
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.csproj.CopyComplete
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.dll
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\ref\Omega.dll
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.pdb
-C:\Users\я\Desktop\Omega (3)\Omega\obj\Debug\net6.0\Omega.genruntimeconfig.cache
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\AutoMapper.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\ПрактикаОмега\Omega\bin\Debug\net6.0\BCrypt.Net-Next.dll

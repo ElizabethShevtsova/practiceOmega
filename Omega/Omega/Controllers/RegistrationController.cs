@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Omega.Models;
 using Omega.Repositories;
+using Omega.ViewModels;
+using Omega.ViewModelsModels;
 
 namespace Omega.Controllers;
 
@@ -9,16 +11,17 @@ public class RegistrationController : Controller
 {
     
     private readonly IDataRepository _dataRepository;
+    private readonly IMapper _mapper;
+    private readonly IModelsContext _context;
 
-    public RegistrationController(IDataRepository dataRepository)
+    public RegistrationController(IDataRepository dataRepository, IMapper mapper,IModelsContext context)
     {
        
         _dataRepository = dataRepository;
+        _mapper = mapper;
+        _context = context;
 
     }
-    
-    
-    
     [HttpGet ("GetUser")]
     public async Task<ActionResult<IEnumerable<User>>> GetUser()
     {
@@ -33,62 +36,48 @@ public class RegistrationController : Controller
     }
     
     [HttpPost ("Data")]
-    public async Task<ActionResult> CreateData(CreateData createData)
+    public async Task<ActionResult> CreateData(DataViewModel datas)
     {
-        Data data = new()
-        {
-            id= createData.id,
-            surname = createData.surname,
-            name = createData.name,
-            address = createData.address,
-            phone = createData.phone
-
-        };
+        Data data = _mapper.Map<Data>(datas);
         await _dataRepository.AddData(data);
         return Ok();
     }
     
     [HttpPost ("User")]
-    public async Task<ActionResult> CreateUser(CreateUser createUser)
+    public async Task<ActionResult> CreateUser(UserViewModel userViewModel)
     {
-        User user = new()
-        {
-            userId = createUser.userId,
-            login = createUser.login,
-            password = createUser.password
+      
+        if (_context.users.Any(x => x.login == userViewModel.login))
+            throw new Exception("Username '" + userViewModel.login + "' is already taken");
 
-        };
+      
+        var user = _mapper.Map<User>(userViewModel);
+
+       
+        user.password = userViewModel.password+BCrypt.Net.BCrypt.HashPassword(userViewModel.password);
+       
         await _dataRepository.AddUser(user);
         return Ok();
     }
-   
-   
-   
+ 
+    
     [HttpPut("UpdateData")]
-    public async Task<ActionResult> UpdateData (int id,UpdateData updateData)
+    public async Task<ActionResult> Edit(DataViewModel dataView)
     {
-        Data data = new()
-        {
-            id= id,
-            surname = updateData.surname,
-            name = updateData.name,
-            address = updateData.address,
-            phone = updateData.phone
-
-        };
-        await _dataRepository.UpdateData(data);
+        Data model=_mapper.Map<Data>(dataView);
+        await _dataRepository.UpdateData(model);
         return Ok();
     }
     [HttpPut("UpdateUser")]
-    public async Task<ActionResult> UpdateUser(int id,UpdateUser updateUser)
+    public async Task<ActionResult> UpdateUser(UserViewModel updateUser)
     {
-        User user = new()
-        {
-            userId = id,
-            login = updateUser.login,
-            password = updateUser.password
-        };
-        await _dataRepository.UpdateUser(user);
+        var user= _context.users.Find(updateUser.userId);
+        if (user == null)
+            throw new KeyNotFoundException("User not found");
+        _mapper.Map(updateUser,user);
+        user.password = updateUser.password+BCrypt.Net.BCrypt.HashPassword(updateUser.password);
+        _context.users.Update(user);
+        await _context.SaveChangesAsync();
         return Ok();
     }
     [HttpDelete("DeleteUserId")]

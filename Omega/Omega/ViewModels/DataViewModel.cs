@@ -1,6 +1,6 @@
-﻿namespace Omega.Models;
+﻿namespace Omega.ViewModels;
 
-public class CreateData
+public class DataViewModel
 {
     public int id { get; set; }
     public string surname { get; set; }

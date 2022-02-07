@@ -1,15 +1,20 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Omega.Models;
+using Omega.ViewModels;
+using Omega.ViewModelsModels;
 
 namespace Omega.Repositories;
 
 public class DataRepository:IDataRepository
 {
     private readonly IModelsContext _context;
+    private readonly IMapper _mapper;
 
-    public DataRepository(IModelsContext context)
+    public DataRepository(IModelsContext context, IMapper mapper)
     {
         _context = context;
+        _mapper = mapper;
     }
     public async Task<IEnumerable<User>> GetUser()
     {
@@ -21,6 +26,10 @@ public class DataRepository:IDataRepository
         return await _context.datas.ToListAsync();
     }
 
+    public async Task<Data> GetDataId(int id)
+    {
+        return await _context.datas.FindAsync(id);
+    }
     public async Task AddUser(User user)
     {
         _context.users.Add(user);
@@ -53,24 +62,20 @@ public class DataRepository:IDataRepository
 
     public async Task UpdateData(Data data)
     {
-        var itemUpData = await _context.datas.FindAsync(data.id);
-        if (itemUpData == null)
+        var itemUpUser = await _context.datas.FindAsync(data.id);
+        if (itemUpUser == null)
             throw new NullReferenceException();
-        itemUpData.surname = data.surname;
-        itemUpData.name = data.name;
-        itemUpData.address = data.address;
-        itemUpData.phone = data.phone;
+        
+        itemUpUser.surname = data.surname;
+        itemUpUser.name = data.name;
+        itemUpUser.address = data.address;
+        itemUpUser.phone = data.phone;
         await _context.SaveChangesAsync();
 
     }
 
     public async Task UpdateUser(User user)
     {
-        var itemUpUser = await _context.users.FindAsync(user.userId);
-        if (itemUpUser == null)
-            throw new NullReferenceException();
-        itemUpUser.login = user.login;
-        itemUpUser.password = user.password;
         await _context.SaveChangesAsync();
     }
 }
