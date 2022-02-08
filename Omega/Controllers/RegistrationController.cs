@@ -54,7 +54,7 @@ public class RegistrationController : Controller
         var user = _mapper.Map<User>(userViewModel);
 
        
-        user.password = userViewModel.password+BCrypt.Net.BCrypt.HashPassword(userViewModel.password);
+        user.password = BCrypt.Net.BCrypt.HashPassword(userViewModel.password);
        
         await _dataRepository.AddUser(user);
         return Ok();
@@ -74,8 +74,10 @@ public class RegistrationController : Controller
         var user= _context.users.Find(updateUser.userId);
         if (user == null)
             throw new KeyNotFoundException("User not found");
+        if (_context.users.Any(x => x.login == updateUser.login))
+            throw new Exception("The login is already occupied");
         _mapper.Map(updateUser,user);
-        user.password = updateUser.password+BCrypt.Net.BCrypt.HashPassword(updateUser.password);
+        user.password = BCrypt.Net.BCrypt.HashPassword(updateUser.password);
         _context.users.Update(user);
         await _context.SaveChangesAsync();
         return Ok();

@@ -35,14 +35,14 @@ public class AuthorizationController : Controller
     
     
     [HttpPost ("Autorization")]
-    public async Task<IActionResult> Login(AutorizationDto model)
+    public async Task<AutorizationDto> Login(AutorizationDto model)
     {
         var user = _context.users.SingleOrDefault(x => x.login == model.login);
-        if (user == null || model.password!=user.password.Split("$")[0])
+        if (user == null || !BCrypt.Net.BCrypt.Verify(model.password,user.password))
             throw new Exception("Username or password is incorrect");
-        
+
         var response = _mapper.Map<AutorizationDto>(user);
-        return Ok(response);
+        return response;
     }
     
 
