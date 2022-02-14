@@ -1,0 +1,54 @@
+﻿@using BlazorOmega.Data
+@inject BlazorOmega.Data.Service.IDataService _dataService;
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <h2 class="text-center">Data</h2>
+            <table class="table table-striped">
+                <thead class="table-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Surname</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Phone</th>
+                    
+                </tr>
+                </thead>
+                @foreach (var item in datas)
+                {
+                    <tbody>
+                    <tr>
+                        <td>
+                            @item.id
+                        </td>
+                        <td>
+                            @item.surname
+                        </td>
+                        <td>
+                            @item.name
+                        </td>
+                        <td>
+                            @item.address
+                        </td>
+                        <td>
+                            @item.phone
+                        </td>
+                        
+                    </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
+</div>
+
+@code {
+    private IEnumerable<Data> datas = new List<Data>();
+    protected override void OnInitialized()
+    {
+        datas = _dataService.GetAllItems();
+    }
+
+}

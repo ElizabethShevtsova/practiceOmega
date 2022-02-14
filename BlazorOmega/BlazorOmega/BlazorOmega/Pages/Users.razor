@@ -1,0 +1,30 @@
+﻿@inject BlazorOmega.Data.Service.IDataService dataService;
+@using BlazorOmega.Data.ViewModel
+@using BlazorOmega.Data
+@page "/Users"
+
+<h3>Authorization</h3>
+
+<p>Login:</p>
+<input @bind-value="user.login"/> 
+<br/>
+<p>Password:</p>
+<input type="password" @bind-value="user.password"/> 
+<br/>
+<button class="btn btn-success" @onclick="at">Ok</button>
+@if (state == true)
+{
+    <ListData></ListData>
+}
+@code {
+    private UserViewModel user = new UserViewModel();
+    private bool state { get; set; }
+    private async Task at()
+    {
+        state = dataService.Authorization(user);
+        
+    }
+
+   
+
+}

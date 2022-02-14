@@ -1,0 +1,47 @@
+﻿@inject BlazorOmega.Data.Service.IDataService _dataService;
+@using BlazorOmega.Data.ViewModel
+@using BlazorOmega.Data
+@page "/Registration"
+
+
+
+<PageTitle>Registration</PageTitle>
+
+<h3>Registration</h3>
+<p>Id:</p>
+<input @bind-value="model.id"/> 
+<br/>
+<p>Surname:</p>
+<input @bind-value="model.surname"/>
+<br/>
+<p>Name:</p>
+<input @bind-value="model.name"/> 
+<br/>
+<p>Address:</p>
+<input @bind-value="model.address"/> 
+<br/>
+<p>Phone:</p>
+<input @bind-value="model.phone"/> 
+<br/>
+<p>Login:</p>
+<input @bind-value="user.login"/> 
+<br/>
+<p>Password:</p>
+<input @bind-value="user.password"/> 
+<br/>
+<button class="btn btn-success" @onclick="registration">Ok</button>
+
+@code{
+
+   private DataViewModel model = new DataViewModel();
+   private UserViewModel user = new UserViewModel();
+  
+   private void registration()
+   {
+      _dataService.CreateData(model);
+      _dataService.CreateUser(model,user);
+     
+   }
+   
+
+}
